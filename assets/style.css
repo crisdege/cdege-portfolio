@@ -1,0 +1,331 @@
+:root {
+    --primary-color: #30363f;
+    --secondary-color: #81ced0;
+    --tertiary-color: #425a77;
+}
+
+/* universal box settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* set the body background color */
+body {
+    background-color: #eeeef9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+/* set the header section */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+
+}
+
+header h1 a {
+    font-size: 40px;
+    margin: 0;
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    justify-content: left;
+}
+
+.name {
+
+    background-color: var(--secondary-color);
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav a {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+
+.hero {
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 80%;
+    height: 200px;
+    width: 100%;
+    padding-top: 150px;
+    padding-right: 35px;
+}
+
+.hero-subtitle h2 {
+    background-color: var(--secondary-color);
+}
+
+/* end header section */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+.description-contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    padding-right: 10px;
+    padding-left: 60px;
+    width: 150px;
+    border-right: var(--tertiary-color) solid;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--tertiary-color)
+}
+
+footer a {
+    color: black;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+
+
+/*end style aside box*/
+
+/*style content*/
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.description-about-me {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 0 0 20%; */
+    justify-content: right;
+    align-items: right;
+    padding-right: 10px;
+    padding-left: 60px;
+    width: 150px;
+    border-right: var(--tertiary-color) solid;
+    height: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--tertiary-color)
+}
+.content-about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+    justify-content: left;
+    padding-left: 20px;
+    
+}
+
+.content-work {
+    
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.description-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    padding: 20px 10px 20px 60px;
+    margin: 0 20px 0 0;
+    width: 150px;
+    border-right: var(--tertiary-color) solid;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: var(--tertiary-color)
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+    justify-content: left;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+.large-card  {
+    background-image: url(../images/surf.jpeg);
+    background-size: cover;
+    display: flex;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 5px;
+    /* padding: 20px 20px 20px 30px; */
+    margin: 0px;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: 80%;
+    height: 300px;
+    width: 1500px;
+    /* flex: 1 1 75%; */
+}
+.small-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+.row-1 {
+    display: flex;
+}
+
+.row-2 {
+    display: flex;
+}
+.card-led  {
+    background-image: url(../images/ledwall.jpg);
+    background-size: cover;
+    display: flex;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 5px;
+    padding: 0;
+    flex: 1 1 100%;
+    margin: 0px;
+    /* position: relative; */
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: 80%;
+    height: 150px;
+    width: 450px;
+
+}
+
+.card-calc  {
+    background-image: url(../images/IMG_1221.jpeg);
+    background-size: cover;
+    display: flex;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 5px;
+    padding: 0;
+    flex: 1 1 100%;
+    margin: 0px;
+    /* position: relative; */
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: 80%;
+    height: 150px;
+    width: 450px;
+
+}
+
+.card-pastel  {
+    background-image: url(../images/pastelpuzzel.jpeg);
+    background-size: cover;
+    display: flex;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 5px;
+    padding: 0;
+    /* flex: 1 1 100%; */
+    margin: 0px;
+    /* position: relative; */
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: 80%;
+    height: 150px;
+    width: 450px;
+
+}
+
+.card-run-buddy  {
+    background-image: url(../images/runbuddy.jpg);
+    background-size: cover;
+    display: flex;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 5px;
+    padding: 0;
+    /* flex: 1 1 100%; */
+    margin: 0px;
+    /* position: relative; */
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-position: 80%;
+    height: 150px;
+    width: 450px;
+
+}
+
+.text-box {
+    text-align: left;
+    background-color: var(--secondary-color);
+    /* position: absolute; */
+    bottom: 0;
+}
