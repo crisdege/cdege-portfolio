@@ -14,8 +14,8 @@
 /* set the body background color */
 body {
     background-color: #eeeef9;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     min-height: 100vh;
     justify-content: flex-start;
 }
@@ -181,17 +181,17 @@ main {
 }
 
 .content-work {
-    
-    padding-top: 20px;
+    flex: 1;
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
    
 }
 
 .description-work {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     justify-content: right;
     align-items: right;
     padding: 20px 10px 20px 60px;
@@ -205,9 +205,9 @@ main {
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 80%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex: 0 0 80%; */
     justify-content: left;
     padding-left: 20px;
     justify-content: space-evenly;
@@ -221,28 +221,32 @@ main {
     border-width: 5px;
     /* padding: 20px 20px 20px 30px; */
     margin: 0px;
-    justify-content: left;
-    flex-wrap: wrap;
+    padding: 10px;
+    /* justify-content: left; */
+    /* flex-wrap: wrap; */
     align-items: flex-end;
     background-position: 80%;
     height: 300px;
-    width: 1500px;
+    /* width: 1500px; */
     /* flex: 1 1 75%; */
 }
-.small-cards {
+ .small-cards {
     display: flex;
     flex-direction: row;
     justify-content: left;
     flex-wrap: wrap;
-    
+    padding: 10px; 
 }
 .row-1 {
     display: flex;
+    padding: 10px;
 }
 
 .row-2 {
     display: flex;
+    padding: 10px;
 }
+
 .card-led  {
     background-image: url(../images/ledwall.jpg);
     background-size: cover;
@@ -250,8 +254,8 @@ main {
     border-style: solid;
     border-color: var(--secondary-color);
     border-width: 5px;
-    padding: 0;
-    flex: 1 1 100%;
+    padding: 10px;
+    /* flex: 1 1 100%;  */
     margin: 0px;
     /* position: relative; */
     justify-content: left;
@@ -270,7 +274,7 @@ main {
     border-style: solid;
     border-color: var(--secondary-color);
     border-width: 5px;
-    padding: 0;
+    padding: 10px;
     flex: 1 1 100%;
     margin: 0px;
     /* position: relative; */
@@ -290,7 +294,7 @@ main {
     border-style: solid;
     border-color: var(--secondary-color);
     border-width: 5px;
-    padding: 0;
+    padding: 10px;
     /* flex: 1 1 100%; */
     margin: 0px;
     /* position: relative; */
@@ -303,14 +307,14 @@ main {
 
 }
 
-.card-run-buddy  {
-    background-image: url(../images/runbuddy.jpg);
+.card-genre-buddy  {
+    background-image: url(../images/genrebuddy.png);
     background-size: cover;
     display: flex;
     border-style: solid;
     border-color: var(--secondary-color);
     border-width: 5px;
-    padding: 0;
+    padding: 10px;
     /* flex: 1 1 100%; */
     margin: 0px;
     /* position: relative; */
