@@ -287,8 +287,8 @@ main {
 
 }
 
-.card-pastel  {
-    background-image: url(../images/pastelpuzzel.jpeg);
+.card-to-dine-list  {
+    background-image: url(../images/todine.png);
     background-size: cover;
     display: flex;
     border-style: solid;
